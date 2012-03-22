@@ -1,5 +1,5 @@
-def f(arg):
+def print_me(arg):
   print arg
 
 i = 6
-f(i)
+print_me(i)
