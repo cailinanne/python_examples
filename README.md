@@ -1,9 +1,4 @@
 ## Python Examples
 
-### More Silly Stuff
-
-#### More and More Silly Stuff
-
-* This is a list
-* I think
-* I can never remember markdown properly
+* This contains some basic examples on Python programming.
+* Suitable for somebody familiar with Ruby, trying toremember how "the usual stuff" works in Python.
