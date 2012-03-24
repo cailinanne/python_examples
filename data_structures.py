@@ -34,3 +34,20 @@ l.append(4)
 logging.info(l)
 logging.info(l.pop())
 logging.info(l)
+
+for v in l:
+    print v
+
+for index, value in enumerate(l):
+    print index, value
+
+# LIST COMPREHENSIONS
+
+squares = [x**2 for x in range(10)]
+logging.info(squares)
+
+# DICTIONARIES
+
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.iteritems():
+    print k, v
