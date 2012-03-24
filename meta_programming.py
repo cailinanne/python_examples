@@ -7,3 +7,4 @@ print SomeClass
 
 some_instance = SomeClass()
 print some_instance
+print some_instance
