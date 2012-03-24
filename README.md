@@ -10,5 +10,3 @@
 * Another item in the list
 * Yet another item in the list
 * All from MacOS this time again.
-* One more time after telling Mac to ignore filemode.
-* About to try this from PHPStorm
