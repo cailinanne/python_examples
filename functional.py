@@ -10,6 +10,12 @@ l2 = filter(f,l)
 logging.info(l2)
 logging.info(l)
 
+# FILTER WITH LAMBDA
+
+l = range(2,25)
+l2 = filter(lambda x: x %2 != 0 and x %3 != 0, l)
+logging.info(l2)
+
 # MAP
 
 l = range(1,11)
@@ -30,3 +36,5 @@ logging.info(sum)
 sum = reduce(lambda a, b: a+b, l, 0)
 logging.info(l)
 logging.info(sum)
+
+

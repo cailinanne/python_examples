@@ -9,10 +9,16 @@ for i in my_list :
 
 # Create a list using a list comprehension, iterate around it (twice)
 print "list comprehension"
-my_list = [x*x for x in range(1,4)]
+my_list = [x*x for x in range(1,5)]
 
 for i in my_list :
     print(i)
+
+for i in my_list :
+    print(i)
+
+print "list comprehension with filter"
+my_list = [x*x for x in range(1,5) if x % 2 == 0]
 
 for i in my_list :
     print(i)

@@ -17,6 +17,10 @@ def modify_list(l):
     print l
 
 
+def modify_dict(d):
+    d["apple"] = "APPLESAUCE"
+
+
 print_me("Hello")
 
 i = 3
@@ -34,3 +38,8 @@ l = [1,2,3]
 print l
 modify_list(l)
 print l
+
+d = {"apple" : "apple", "banana" : "banana"}
+print d
+modify_dict(d)
+print d
